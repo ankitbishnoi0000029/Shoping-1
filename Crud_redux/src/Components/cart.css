@@ -1,0 +1,48 @@
+.input_quntity{
+   width: 60px;
+   border-radius: 8%;
+   margin-left: 20px;
+}
+.mybtn{
+background-color: #fff;
+    border: none;
+    font-size: xx-large;
+    height: min-content;
+}
+.mybtn :hover{
+    color: blue;
+}
+.cart-item{
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.385);
+    background-color: rgba(254, 254, 254, 0.692);
+    padding: 25px;
+}
+.secend-div{
+    display: flex;
+    align-items: center;
+}
+.btn-remove{
+    position: absolute;
+    right: 0px;
+}
+.cart-item-new{
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.385);
+    background-color: rgba(254, 254, 254, 0.692);
+    padding: 25px;
+    position: fixed;
+}
+.fixed-bottom-price {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.385);
+     background-color: white;
+    padding: 25px;
+    border-top: 1px solid #ccc; 
+    text-align: center;
+}
+.cart-box{
+    background-color: red;
+}
